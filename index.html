@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avery Lane — WordPress Developer</title>
+    <meta
+      name="description"
+      content="Minimal modern portfolio for Avery Lane, a WordPress developer building fast custom themes and WooCommerce sites."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="#home">Avery Lane</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="container stack-lg">
+      <section class="hero card">
+        <p class="badge">WordPress Developer</p>
+        <h1>Custom WordPress sites with clean UX and fast performance.</h1>
+        <p class="muted">
+          I design and build lightweight themes, WooCommerce stores, and block
+          editor experiences that are easy to scale.
+        </p>
+        <div class="actions">
+          <a class="btn btn-dark" href="#work">See Projects</a>
+          <a class="btn btn-light" href="#contact">Book a Call</a>
+        </div>
+      </section>
+
+      <section id="services" class="stack">
+        <div>
+          <p class="section-label">Services</p>
+          <h2>Focused capabilities</h2>
+        </div>
+        <div class="grid three">
+          <article class="card soft">
+            <h3>Theme Development</h3>
+            <p class="muted">
+              Bespoke block-based themes built for maintainability and speed.
+            </p>
+          </article>
+          <article class="card soft">
+            <h3>WooCommerce</h3>
+            <p class="muted">
+              Conversion-focused storefronts and checkout flows with reliable integrations.
+            </p>
+          </article>
+          <article class="card soft">
+            <h3>Optimization</h3>
+            <p class="muted">
+              Core Web Vitals, technical SEO fixes, and clean content architecture.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="stack">
+        <div>
+          <p class="section-label">Work</p>
+          <h2>Selected projects</h2>
+        </div>
+        <div class="grid two">
+          <article class="card">
+            <p class="meta">Bloom Interiors</p>
+            <p class="muted">
+              Migrated a slow legacy site to a custom theme and improved page
+              speed by 58%.
+            </p>
+          </article>
+          <article class="card">
+            <p class="meta">Northstar Fitness</p>
+            <p class="muted">
+              Built a WooCommerce membership platform with recurring billing and
+              account dashboards.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="card split">
+        <div>
+          <p class="section-label">About</p>
+          <h2>Calm process, clear delivery</h2>
+        </div>
+        <ul class="list muted">
+          <li>Discovery and planning around business goals.</li>
+          <li>Component-driven build with QA and content support.</li>
+          <li>Launch, handoff documentation, and post-launch care.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="card contact">
+        <h2>Need a modern WordPress site?</h2>
+        <a class="btn btn-dark" href="mailto:hello@averylane.dev">hello@averylane.dev</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="muted">© <span id="year"></span> Avery Lane</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
